@@ -1,0 +1,35 @@
+
+
+/* 首页主体部分的3个div块布局 */
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+/* 首页主体部分的图片样式 */
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+/* 首页主体部分的title的盒子及内容样式 */
+
+.featureTitle {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  color:#fff;
+  background-color: var(--ifm-color-primary);
+  padding:1.5em;
+  margin:2rem 0;
+  border-radius: 10px;
+  box-shadow: 0 0.5em 1em -0.125em #0a0a0a1a, 0 0 0 1px #0a0a0a05;
+}
+
+/*title的链接鼠标悬浮样式*/
+.link :hover {
+  color: #fff;
+  text-decoration: underline var(--ifm-link-decoration); 
+} 
+
